@@ -15,11 +15,11 @@ const SNAKE_PREFIX = 0x00;
 // - Data is stored on-chain (except for the image data itself)
 // - Owner should usually be the deploying wallet's address.
 const jettonParams = {
-  owner: Address.parse("EQD4gS-Nj2Gjr2FYtg-s3fXUvjzKbzHGZ5_1Xe_V0-GCp0p2"),
-  name: "MyJetton",
-  symbol: "JET1",
-  image: "https://www.linkpicture.com/q/download_183.png", // Image url
-  description: "My jetton",
+  owner: Address.parse("UQDY8H3pDnVw2m5Tt16te7im-lb8UX5gE0SoWecFyf-cXHY4"),
+  name: "MazeTon",
+  symbol: "MAZE",
+  image: "https://raw.githubusercontent.com/mazeton/mazeton.github.io/master/public/logo.png", // Image url
+  description: "MazeTon Adventure 🌀",
 };
 
 export type JettonMetaDataKeys = "name" | "description" | "image" | "symbol";
